@@ -1,0 +1,32 @@
+p {
+    color: green;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+body>p:nth-child(2) {
+    color: #ff00ff;
+}
+
+a {
+    color: #0000b1;
+}
+
+ul a {
+    color: #ff00ff;
+}
+body>ul>li>a {
+    color: green;
+}
+li>ul {
+    list-style: none;
+}
+body>ul>li:last-child>ul {
+    list-style-type: square ;
+}
+body>ul>li:last-child>ul>li>a {
+    text-decoration: none;
+}
