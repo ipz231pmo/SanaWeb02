@@ -1,0 +1,49 @@
+.register {
+    padding: 15px;
+    display: table-cell;
+    float: left;
+}
+.image {
+    display: table-cell;
+}
+h1 {
+    font-weight: normal;
+    color: aqua;
+}
+p>span {
+    color: darkred;
+    font-size: 1.2rem;
+}
+.required {
+    color: red;
+}
+button {
+    padding: 10px 40px;
+    background-color: #910404;
+    border-radius: 15px;
+    border: 0;
+}
+button:hover {
+    background-color: #5d0c0c;
+}
+.inner {
+    display: inline-block;
+    padding: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,125,1) 26%, rgba(0,212,255,1) 100%);
+}
+.FormElement {
+    margin-bottom: 10px;
+}
+.formLabel {
+    margin-bottom: 4px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 16px;
+}
+.HaveAccount>p{
+    margin-bottom: 4px;
+}
+.HaveAccount>a {
+    text-decoration: none;
+}
